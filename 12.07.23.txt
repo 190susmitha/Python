@@ -1,0 +1,26 @@
+List:
+
+    > Unordered List
+    > Ordered List
+
+    Unordered List:
+
+        <ul type="circle | square | disc">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    Ordered List:
+
+        <ol type="A | a | 1 | i | I">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>

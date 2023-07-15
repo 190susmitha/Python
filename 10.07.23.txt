@@ -1,0 +1,142 @@
+HTML - Content
+
+    Styling - CSS
+
+1. Inline Stylesheet
+2. Internal Stylesheet
+3. External Stylesheet
+
+1. Inline
+
+    Syntax:
+
+        <tagName style="property1: value1;  property1: value1; property1: value1;"></tagName>
+
+        <tagName style="property1: value1;  property1: value1; property1: value1;"></tagName>
+
+        <tagName style="property1: value1;  property1: value1; property1: value1;"></tagName>
+
+Cons:
+> Readability 
+> We are loosing re usability of the source code.
+
+2. Internal 
+
+    Syntax:
+
+        <head>
+            <style>
+                tagName {
+                    property1: value1;
+                    property2: value2;
+                    property3: value3;
+                }
+                tagName {
+                    property1: value1;
+                    property2: value2;
+                    property3: value3;
+                }
+                tagName {
+                    property1: value1;
+                    property2: value2;
+                    property3: value3;
+                }
+            </style>
+        </head>
+
+        <body>
+            <h1></h1>
+        </body>
+
+    Cons: 
+    > When no of lines of css increase, it increases the scrolling time to navigate between html and css source code.
+
+3. External StyleSheet.
+
+    styles.css
+
+    tagName {
+        property1: value1;
+        property2: value2;
+        property3: value3;
+    }
+
+    index.html
+
+        <head>
+            <link rel="stylesheet" href="relativePath" />
+        </head>
+
+        <body>
+            <h1></h1>
+        </body>
+
+Use case of class and id attributes
+
+Tag - It applies css properties for all the tags matching in html file.
+Class - When ever we want to apply css for specific group of html element.
+Id - When we want to apply css for specific element.
+
+    Syntax:
+
+        <tagName class="className className className" id="idName"></tagName>
+
+Color:
+
+Ways of giving color:
+> Color Name
+> Hex Codes
+> RGB
+> HSL
+
+Hex Codes:
+
+    color: #000000 - #FFFFFF
+
+            Red Green Blue
+
+RGB:
+
+    color: rgb(0, 0, 0) - rgb(255, 255, 255)
+
+HSL: 
+
+    H - Hue
+    S - Saturation
+    L - Lightness
+
+
+        hsl(0, 0%, 0%) - hsl(360, 100%, 100%)
+
+        0 - 120 - red
+        121 - 240 - Green
+        241 - 360 - Blue
+
+div - Division - It is used to group set of elements and divide the web page into different parts.
+
+Margin & Padding
+
+Margin: It is used to apply white space between border and other element.
+Padding: it is used to apply white space between content and border.
+
+    margin: 20px;
+
+        margin-direction
+
+            margin-left 
+            margin-right
+            margin-top
+            margin-bottom
+
+    margin: 20px 15px 30px 25px;
+
+    margin: 20px 30px;
+
+    margin: 20px;
+
+    padding: 20px 15px 30px 25px;
+
+    padding: 20px 30px;
+
+    padding: 20px;
+

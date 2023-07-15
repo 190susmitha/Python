@@ -1,0 +1,42 @@
+Border: 
+
+    border: border-width border-style border-color;
+
+        border-width: 10px;
+        border-style: solid | dashed | dotted
+        border-color: red;
+
+        border-left: border-width border-style border-color;
+        border-right: border-width border-style border-color;
+        border-top: border-width border-style border-color;
+        border-bottom: border-width border-style border-color;
+
+Background Properties:
+
+    background-image: url(relativePath);
+
+    background-color: red | blue;
+
+    background-attachment: scroll | fixed;
+
+    background-position: top left | top right | bottom left | bottom right | center center;
+
+    background-repeat: no-repeat | repeat-x | repeat-y | repeat;
+
+    background-size: cover | 40% | 300px;
+
+
+Block Level VS Inline
+
+Block: It occupies parent element size.
+
+Inline: It occupies content size.
+
+Float: We can convert block level element into inline element.
+
+    Syntax:
+
+        float: left | right;
+
+
+        9032345245

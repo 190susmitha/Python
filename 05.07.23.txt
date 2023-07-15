@@ -1,0 +1,72 @@
+Comment: When we comment the source code, complier ignore the source code when we have commented.
+
+    For commenting the source code:
+
+        1. select the source code which we want to comment.
+        2. Ctrl + /
+
+CSS: Cascading Style Sheets:
+
+> Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML.
+> For adding stylings to the html content, we use css.
+> Whole css comes in the form property value pairs.
+We can add css in 3 different ways.
+1. Inline StyleSheet
+2. Internal StyleSheet
+3. External StyleSheet
+
+> In projects, external stylesheets are prefered.
+
+1. Inline Stylesheet: Writing css inside starting tag as a attribute.
+
+    Syntax:
+
+        <tagName style="property1: value1; property2: value2: property3: value3; propertyN: valueN"></tagName>
+
+color: red | yellow | green
+font-size: 20px
+font-weight: bold
+font-family: Arial;
+Visual Studio Code Extension: Live Server
+
+> Launch a development local Server with live reload feature for static & dynamic pages
+
+2. Internal StyleSheet: We will writing the css seperately inside the same html file.
+
+    Syntax:
+
+        <head>
+            <style>
+                tagName {
+                    property1: value1;
+                    property2: value2;
+                    property3: value3;
+                }
+            </style>
+        </head>
+
+Style tag in head of html, will help us in writing css source code in html file.
+
+Advantages:
+1. We can re use the same css source code for more than one tag.
+2. We can seggregate html and css source code.
+
+3. External StyleSheet
+
+        fileName.css
+
+            tagName {
+                property1: value1;
+                property2: value2:
+                property3: value3;
+            }
+
+        fileName.html
+
+            <head>
+                <link href="relativePathofCss" />
+            </head>
+
+Task:
+
+    headers, pargraph

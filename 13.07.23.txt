@@ -1,0 +1,59 @@
+Tables: Used to data in form of rows and columns.
+
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    tr = table row
+    th - table head
+    td - table data
+
+Forms: Using forms we can get information from the user.
+
+    Syntax:
+
+        <form>
+            <input type="text | email | number | date | datetime-local | file | checkbox | radio | button"/>
+
+            <select>
+                <option></option>
+                <option></option>
+                <option></option>
+                <option></option>
+            </select>
+
+            <textarea>
+            
+            </textarea>
+        </form>

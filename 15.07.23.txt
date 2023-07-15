@@ -1,0 +1,9 @@
+Display 
+    Syntax:
+        display: flex | block | inline | none
+    
+Flexbox Properties
+    <div> -> Parent
+        <div></div> -> Child
+        <div></div> -> Child
+    </div>

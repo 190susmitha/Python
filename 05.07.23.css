@@ -1,0 +1,14 @@
+h3 {
+    color: violet;
+    font-family: Roboto;
+    font-size: 35px;
+}
+h4, h5, p {
+    color: red;
+    font-size: 35px;
+    font-family: Roboto;
+}
+button{
+    padding: 60px 80px 80px 60px;
+    box-shadow: 5px 10px #888888;
+}

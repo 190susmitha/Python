@@ -1,0 +1,65 @@
+HTML: Hyper Text Markup Language
+
+> It helps us in display content on the web browser.
+> The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.
+> It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+> Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages.
+> HTML describes the structure of a web page semantically and originally included cues for its appearance.
+
+    For creating html file:
+
+        file-name.html
+
+> Markup Language:
+
+    <tagName>Content</tagName>
+
+    <tagName> - Starting Tag
+ 
+    </tagName> - Ending Tag
+
+<!DOCTYPE html> - Using this html complier, understands that we are writing source code in html5.
+
+head -> Used to include external files like css, javascript. Also it helps us in adding meta tags and title.
+
+Header Tags: Used to display headings in web browser.
+
+h1 - h6
+
+Paragraph - Display Paragraph content on the web browser.
+
+    Syntax:
+
+        <p>Content</p>
+
+Image:
+
+    Syntax:
+
+        <img src="" alt=""/>
+
+Elements or Tags
+
+    Attributes: It adds extra functionality to the tag.
+
+        Syntax:
+
+            <tagName attribute1=value1 attribute2=value2 attribute3=value3></tagName>
+
+Anchor: It helps us in navigating from one page to another page.
+
+    <a href="">Content</a>
+
+Path: 
+
+    > Relative Path:
+
+        ./ - Current Folder
+
+        ../ - Parent Folder
+
+        ../../ - Grand Parent Folder
+
+        ../../../ - Great Grand Parent Folder
+
+    > Absolute Path
