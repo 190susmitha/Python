@@ -1,156 +1,86 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://kit.fontawesome.com/1135b32737.js" crossorigin="anonymous"></script>
-    <style>
-        * {
-            padding: 0px;
-            margin: 0px;
-        }
 
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
+<meta charset="utf-8">
+<title>Dento | </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="robots" content="noindex, nofollow" />
 
-        /* i {
-            color: #FF5700;
-            font-size: 14px;
-            border: 1px solid gray;
-            padding: 10px;
-            border-radius: 50%;
-        }
-        ol {
-            list-style-type: upper-roman;
-        } */
-        #outer-nav {
-            padding: 20px 50px;
-        }
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="assets/css/template.css" rel="stylesheet" media="screen">
+<link href="assets/css/fa.min.css" rel="stylesheet" media="screen">
+<link href="assets/css/gfonts.min.css" rel="stylesheet" media="screen">
+<script>if ( top !== self ) top.location.replace( self.location.href );// Hey, don't iframe my iframe!</script>
 
-        #inner-nav>div {
-            float: left;
-        }
 
-        #logo,
-        #booking-now {
-            text-align: center;
-            width: 20%;
-        }
+<!--[if lt IE 9]>
+		<script>/*@cc_on'abbr article aside audio canvas details figcaption figure footer header hgroup mark meter nav output progress section summary subline time video'.replace(/\w+/g,function(n){document.createElement(n)})@*/</script>
+	<![endif]-->
 
-        #nav-links li {
-            float: left;
-            margin-top: 13px;
-            list-style-type: none;
-            padding: 0px 23.5px;
-            text-align: center;
-            font-size: 13px;
-            font-weight: 600;
-            cursor: pointer;
-        }
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-        #nav-links a {
-            color: #000;
-            text-decoration: none;
-        }
-
-        #nav-links a:hover {
-            color: #00AEEF;
-        }
-
-        #booking-now button {
-            background-color: #00AEEF;
-            color: #fff;
-            padding: 8px 15px;
-            border: none;
-            font-weight: 600;
-            font-size: 12px;
-            margin-top: 5px;
-        }
-
-        #nav-links {
-            width: 58%;
-        }
-
-        #banner {
-            position: relative;
-            background: url('https://preview.colorlib.com/theme/dento/img/bg-img/1.jpg.webp');
-            z-index: 2;
-            padding: 200px;
-        }
-        #banner::before {
-            content: '';
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            height: 100%;
-            width: 100%;
-            display: block;
-            z-index: -1;
-            background-color: #2c455d;
-        }
-    </style>
-</head>
-
+	  gtag('config', 'UA-23581568-13');
+	</script>
+<script nonce="faef8ad9-2757-4279-8835-6ab16fb2e7db">(function(w,d){!function(a,b,c,d){a[c]=a[c]||{};a[c].executed=[];a.zaraz={deferred:[],listeners:[]};a.zaraz.q=[];a.zaraz._f=function(e){return function(){var f=Array.prototype.slice.call(arguments);a.zaraz.q.push({m:e,a:f})}};for(const g of["track","set","debug"])a.zaraz[g]=a.zaraz._f(g);a.zaraz.init=()=>{var h=b.getElementsByTagName(d)[0],i=b.createElement(d),j=b.getElementsByTagName("title")[0];j&&(a[c].t=b.getElementsByTagName("title")[0].text);a[c].x=Math.random();a[c].w=a.screen.width;a[c].h=a.screen.height;a[c].j=a.innerHeight;a[c].e=a.innerWidth;a[c].l=a.location.href;a[c].r=b.referrer;a[c].k=a.screen.colorDepth;a[c].n=b.characterSet;a[c].o=(new Date).getTimezoneOffset();if(a.dataLayer)for(const n of Object.entries(Object.entries(dataLayer).reduce(((o,p)=>({...o[1],...p[1]})),{})))zaraz.set(n[0],n[1],{scope:"page"});a[c].q=[];for(;a.zaraz.q.length;){const q=a.zaraz.q.shift();a[c].q.push(q)}i.defer=!0;for(const r of[localStorage,sessionStorage])Object.keys(r||{}).filter((t=>t.startsWith("_zaraz_"))).forEach((s=>{try{a[c]["z_"+s.slice(7)]=JSON.parse(r.getItem(s))}catch{a[c]["z_"+s.slice(7)]=r.getItem(s)}}));i.referrerPolicy="origin";i.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(a[c])));h.parentNode.insertBefore(i,h)};["complete","interactive"].includes(b.readyState)?zaraz.init():a.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document);</script></head>
 <body>
-    <!-- <i class="fa-solid fa-star"></i>
 
-    <i class="fa-solid fa-house"></i>
+<header class="switcher-bar ssss clearfix">
 
-    <i class="fa-brands fa-facebook-f"></i>
+<div class="logo textual pull-left">
+<a href="https://colorlib.com/wp/templates/" title="Switcher">
+<img src="assets/img/logo.png" alt="Colorlib logo">
+</a>
+</div>
 
-    <ul type="none" >
-        <li>Home</li>
-        <li>Pages</li>
-        <li>About</li>
-        <li>Service</li>
-        <li>Pricing</li>
-        <li>Blog</li>
-        <li>Contact</li>
-    </ul>
+<div class="product-switcher pull-left">
+<a href="#" title="Select a Product">
+Select a Product <span>+</span>
+</a>
+</div>
 
-    <ol>
-        <li>Home</li>
-        <li>Pages</li>
-        <li>About</li>
-        <li>Service</li>
-        <li>Pricing</li>
-        <li>Blog</li>
-        <li>Contact</li>
-    </ol> -->
+<div class="remove-btn header-btn pull-right">
+<a href="#" title="Close this bar" class="icon-remove"></a>
+</div>
 
-    <div id="outer-nav">
-        <div id="inner-nav">
-            <div id="logo">
-                <img src="https://preview.colorlib.com/theme/dento/img/core-img/logo.png" />
-            </div>
-            <div id="nav-links">
-                <ul>
-                    <li><a href="home.html">HOME</a></li>
-                    <li><a href="pages.html">PAGES</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="services.html">SERVICES</a></li>
-                    <li><a href="pricing.html">PRICING</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-            <div id="booking-now">
-                <button>BOOKING NOW</button>
-            </div>
-            <br style="clear: left;"/>
-        </div>
-    </div>
-    <div id="banner">
-        <div id="inner-banner">
-            <h2>We Believe Everyone Should Have Easy Access To Great Dental Care</h2>
-        </div>
-    </div>
-    
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-​
+<div class="purchase-btn header-btn pull-right">
+<a href="#" title="Buy now" class="icon-shopping-cart"></a>
+</div>
+
+<div class="mobile-btn header-btn pull-right hidden-xs">
+<a href="#" title="Smartphone View" class="icon-mobile-phone"></a>
+</div>
+
+<div class="tablet-btn header-btn pull-right hidden-xs">
+<a href="#" title="Tablet View" class="icon-tablet"></a>
+</div>
+
+<div class="desktop-btn header-btn pull-right hidden-xs">
+<a href="#" title="Desktop View" class="icon-desktop"></a>
+</div>
+</header>
+
+<section class="switcher-body">
+<a href="#" title="Prev" class="icon-chevron-left products-prev"></a>
+<div class="products-wrapper">
+<div class="products-list clearfix">
+</div>
+</div>
+<a href="#" title="Next" class="icon-chevron-right products-next"></a>
+</section>
+
+<iframe class="product-iframe" frameborder="0" border="0"></iframe>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="assets/js/products.js"></script>
+<script src="assets/js/application.min.js"></script>
+
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v2cb3a2ab87c5498db5ce7e6608cf55231689030342039" integrity="sha512-DI3rPuZDcpH/mSGyN22erN5QFnhl760f50/te7FTIYxodEF8jJnSFnfnmG/c+osmIQemvUrnBtxnMpNdzvx1/g==" data-cf-beacon='{"rayId":"7e8ffa854a952e8d","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.4.0","si":100}' crossorigin="anonymous"></script>
 </body>
-
 </html>
